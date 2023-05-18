@@ -2,7 +2,7 @@
 las siguientes propiedades: nombre, edad, ciudad y profesión. */
 
 // Creación del objeto literal:
-let persona = {
+persona = {
   nombre: "Daniel",
   edad: 35,
   ciudad: "Medellin",
@@ -19,9 +19,9 @@ function presentacion(objeto) {
     let propiedad = objPerso[i];
     if (propiedad != "profesion") {
       cadena_text += objeto[propiedad] + " ";
-    }else{
+    }/* else{
       // continua...
-    }
+    } */
   }
   return cadena_text;
 }

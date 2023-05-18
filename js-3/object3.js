@@ -5,11 +5,16 @@ un objeto literal vacío. */
 let receta = {};
 receta.nombre = "Sandwich";
 receta.ingredientes = [];
-console.log(receta);
+// console.log(receta);
 
-receta.ingredientes[0] = {nombre: "Pan", cantidad: 2};
+/*
+receta.ingredientes[0] = {nombre: "Pan", cantidad: 2};  //Agregar elementos tipo objeto literal a la propiedad tipo arreglo
 receta.ingredientes[1] = {nombre: "Queso", cantidad: 1};
-console.log(receta);
+*/
+receta.ingredientes.push({nombre: "Pan", cantidad: 2});
+receta.ingredientes.push({nombre: "Queso", cantidad: 1});
+
+// console.log(receta);
 console.log("Primer ingrediente; " + receta.ingredientes[0]["nombre"]);
 
 // Sumar cantidades:

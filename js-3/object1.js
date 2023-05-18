@@ -1,7 +1,7 @@
 /* En un archivo llamado object1.js Crea una variable llamada
 pedro de tipo objeto literal con las siguientes llaves y valores: */
 
-let pedro = { //Comienza creación variable pedro con sus propiedades
+pedro = { //Comienza creación variable pedro con sus propiedades
   nombre: "Pedro Perez",
   edad: 30,
   activo: true,
